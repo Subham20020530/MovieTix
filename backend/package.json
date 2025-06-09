@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Ticket Booking backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm start",
+    "build": "npm run build",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.6.0",
+    "express": "^4.21.1",
+    "mongoose": "^5.13.22",
+    "razorpay": "^2.9.5",
+    "shortid": "^2.2.17",
+    "stripe": "^17.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

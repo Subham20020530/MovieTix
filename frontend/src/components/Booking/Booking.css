@@ -1,0 +1,71 @@
+.booking-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-details {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.movie-poster {
+  max-width: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.movie-info {
+  max-width: 400px;
+  text-align: left;
+  color: #ddd;
+}
+
+.booking-page h2 {
+  color: #ddd;
+}
+
+.booking-page p {
+  color: #ddd;
+}
+
+.screen {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.seat {
+  padding: 10px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: #6c7ae0;
+  color: white;
+}
+
+.text-center {
+  margin-top: 20px;
+}
+
+.text-center button {
+  background-color: #f5c518;
+}
+.text-center button:hover{
+  background-color: #e5b507;
+}

@@ -1,0 +1,143 @@
+/* Container Styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+  color: white;
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+}
+
+/* Profile Box */
+.profileBox {
+  background: #27293d;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  transition: all 0.3s ease-in-out;
+}
+
+.profileBox:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Profile Heading */
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Profile Picture Container */
+.profilePicContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/* Profile Picture */
+.profilePic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #f5c518;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Upload Button */
+.uploadBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease-in-out;
+}
+
+.uploadBtn:hover {
+  background: #45a049;
+}
+
+.uploadBtn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.uploadIcon {
+  width: 20px;
+  height: 20px;
+}
+
+/* User Info */
+.userInfo {
+  font-size: 16px;
+  color: #ddd;
+  margin: 8px 0;
+}
+
+/* Logout Button */
+.logoutBtn {
+  background: #ff4757;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.logoutBtn:hover {
+  background: #ff6b81;
+  transform: scale(1.05);
+}
+
+.logoutIcon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .profileBox {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .profilePic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .userInfo {
+    font-size: 14px;
+  }
+
+  .uploadBtn, .logoutBtn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

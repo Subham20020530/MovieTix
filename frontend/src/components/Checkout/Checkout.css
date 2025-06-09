@@ -1,0 +1,95 @@
+/* Container Styling */
+.checkout-container {
+  font-size: large;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.checkout-header {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Form Styling */
+.checkout-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Input Field Styling */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  color:#333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #61dafb;
+}
+
+/* Price Styling */
+.total-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Button Styling */
+.checkout-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  background-color: #f5c518;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #e5b507;
+}
+
+
+@media (max-width: 600px) {
+  .checkout-container {
+    padding: 15px;
+  }
+
+  .checkout-form {
+    padding: 15px;
+  }
+  
+  .checkout-btn {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
