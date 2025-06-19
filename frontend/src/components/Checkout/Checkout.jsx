@@ -23,7 +23,7 @@ function Checkout() {
   }, [selectedSeats]);
 
   useEffect(() => {
-    axios.post("http://localhost:7000/create-payment-intent", { amount: totalPrice })
+    axios.post("https://movietixx-backend.onrender.com/create-payment-intent", { amount: totalPrice })
       .then(response => {
         setClientSecret(response.data.clientSecret);
       })
